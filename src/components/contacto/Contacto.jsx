@@ -9,6 +9,7 @@ const Contacto = () => {
   const inputName = useRef()
   const inputEmail = useRef()
   const inputMensaje = useRef()
+  
   const handleForm = (e) => {
     e.preventDefault()
     let enviado = document.getElementById("enviado")

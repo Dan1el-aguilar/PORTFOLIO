@@ -1,0 +1,186 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+ 
+}
+
+.header_logo {
+  margin-left: 3.445rem;
+}
+
+.navbar {
+  margin: 0 auto;
+ 
+  
+}
+ul {
+  display: flex;
+}
+.scrolling {
+  background-color: #1f80e0;
+  transition: all 400ms ease;
+ 
+}
+
+
+
+ul li {
+  list-style: none;
+  margin: 1rem;
+  text-transform: uppercase;
+
+}
+
+ul li a:hover{
+  border-bottom: 1px solid #1f80e0;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.scrollingText {
+  color: rgba(240, 240, 240, 0.986);
+ }
+
+.changer {
+  display: flex;
+  margin-right: 1.555rem;
+  
+}
+.menu {
+  cursor: pointer;
+  width: 20px;
+  display: none;
+}
+
+/* .closed {
+
+} */
+
+.close {    
+  width: 20px;
+  display: none;
+}
+
+@media (max-width:850px) {
+  .header{
+    justify-content: space-between;
+  }
+
+  .navbar {
+      display: none;
+     
+  }
+
+  .navbar.active {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      inset: 0;
+      background:  #3970a8;;
+      
+  }
+
+  /* navbar toglle */
+  .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #000000;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background:   #9c9c9c;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .nav-toggle > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+  .nav-toggle.open > .bar {
+      transform: translateX(-40px);
+      background: transparent;
+  }
+
+  .nav-toggle.open > .bar::before {
+      width: 32px;
+      transform: rotate(45deg) translate(26px, -26px);
+  }
+
+  .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+   /* nabvar toggle */
+
+  ul {
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  ul > li {
+    margin-block: 2rem;
+    color: aliceblue;
+  }
+
+  li a {
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+  }
+
+  /* .changer {
+
+  } */
+
+  .menu {
+        display: block;
+        border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+        
+  }
+
+   .closed {
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+  }  
+  .close {
+    display: block;
+   
+  }
+}

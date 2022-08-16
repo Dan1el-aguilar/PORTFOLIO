@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+/* 
+body {
+  background-color: #1f1f38;
+  color: white;
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-texture.png);
+} */
+
+/* section {
+  margin-top: 8rem;
+} */
