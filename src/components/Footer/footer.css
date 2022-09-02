@@ -1,0 +1,119 @@
+.footer {
+  width: 100%;
+  background-color: rgb(5, 12, 19);
+  margin-top: 70px;
+  color: rgb(231, 231, 175);
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-info {
+  font-size: 35px;
+  padding: 30px 0 30px 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-info > h1,p {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.footer-links {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links > a {
+  color: white;
+  margin: 0 auto;
+  font-size: 35px;
+  border-bottom: 1px solid transparent;
+}
+.footer-links > a:hover {
+border-color: white;
+transition: all 0.3s ease-out;
+}
+
+@media (min-width:320px){
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer-links {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links > a {
+    color: white;
+    margin: 0 auto;
+    font-size: 35px;
+    border-bottom: 1px solid transparent;
+    margin: 1em;
+  }
+  .footer-info {
+    font-size: 16px;
+    padding: 0 0 1em 0;
+   }
+}
+
+@media (min-width:670px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer-links {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links > a {
+    color: white;
+    margin: 0 auto;
+    font-size: 35px;
+    border-bottom: 1px solid transparent;
+    margin: 2em 2em 1em 2em;
+  }
+  .footer-info {
+    font-size: 35px;
+    padding: 0 0 2em 0;
+   }
+}
+
+@media (min-width:1040px) {
+  
+  .footer {
+     flex-direction: row;
+  }
+  
+  .footer-info {
+    font-size: 35px;
+    padding: 30px 0 30px 50px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .footer-info > h1,p {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links > a {
+    color: white;
+    margin: 0 auto;
+    font-size: 35px;
+    border-bottom: 1px solid transparent;
+  }
+  .footer-links > a:hover {
+  border-color: white;
+  transition: all 0.3s ease-out;
+  }
+}

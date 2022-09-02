@@ -23,6 +23,8 @@ const Header = ({isCrolling}) => {
         <div className="header_logo">
            <h1>D.A</h1>
          </div>
+         
+
          <nav className={`${active ? 'navbar active' : 'navbar'}`}>
            <ul>
                 <li >
@@ -39,9 +41,10 @@ const Header = ({isCrolling}) => {
                 </li>
             </ul>
           </nav>
+         
          <div className={`nav-toggle ${active ?  "open": null}`} onClick={() => setActive(!active)}>
-        <div className="bar"></div>
-      </div>
+              <div className="bar"></div>
+          </div>
     </div>
   )
 }

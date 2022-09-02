@@ -14,7 +14,7 @@ const Main = () => {
               {/* <p>Hola</p> */}
               <h1>Daniel Aguilar</h1>
               <div className='full'>
-              <p className='full2'>FullStack Depelover</p>
+                <p className='full2'>FullStack Depelover</p>
               </div>
               <div className="icons">
                 <a className='icon' href="https://www.facebook.com/profile.php?id=100010034970747" target='_blank' rel="noreferrer"><BsFacebook/></a>
