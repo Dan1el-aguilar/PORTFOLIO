@@ -21,7 +21,7 @@ const Header = ({isCrolling}) => {
   return (
     <div className={`header ${isCrolling > 20 ? 'scrolling' : ""}`}>
         <div className="header_logo">
-           <h1>D.A</h1>
+           <h1 onClick={toTheTop}>D.A</h1>
          </div>
          
 

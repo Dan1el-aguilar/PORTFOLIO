@@ -6,7 +6,7 @@
   position: absolute;
   z-index: 1;
   position: fixed;
-  
+  backdrop-filter: blur(1em);
 }
 
 .header_logo {
@@ -22,7 +22,7 @@ ul {
   display: flex;
 }
 .scrolling {
-  background-color: #1f80e0;
+  background-color: #0370d683;
   transition: all 400ms ease;
  
 }
