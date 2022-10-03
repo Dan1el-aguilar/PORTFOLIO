@@ -13,12 +13,12 @@ const About = () => {
      </div>
      <div className="a-right">
         <h1 className='a-title'>Sobre Mi</h1>
-        <p className='a-sub animate__animated animate__zoomIn'>
+        <p>
               Soy una persona proactiva, organizada 
               y responsable, con buenas relaciones interpersonales.
               Siempre tengo la mejor disposición para la realización de mis labores.
         </p>
-        <p className='a-desc animate__animated animate__zoomIn'>
+        <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ducimus animi itaque dignissimos necessitatibus praesentium optio recusandae molestiae odio officia, nobis eligendi minima aliquam accusamus assumenda, quaerat harum, ab ratione.
         </p>
         <div className="a-award">

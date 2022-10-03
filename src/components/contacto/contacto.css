@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  color: white;
 }
 
 .contact_option {
@@ -27,6 +28,7 @@
 .contact_option:hover {
   background: transparent;
   border: 1px solid rgb(24, 24, 65);
+  color: black;
 }
 
 .contact_option_icon {

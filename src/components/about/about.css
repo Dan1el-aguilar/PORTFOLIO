@@ -18,6 +18,10 @@
 .a-right{
   flex: 1;
 }
+.a-right > P {
+  margin: 0 1em 0 2em;
+  text-align: center;
+}
 .a-card.bg {
   position: absolute;
   top: 50px;
@@ -48,6 +52,8 @@
 
 .a-title {
   font-weight: 400;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .a-sub {

@@ -58,6 +58,20 @@ font-size: 22px;
 }
 .full2 {
   text-align: start;
+  animation: textofullstack 2s ease-in-out;
+  font-weight: bolder;
+}
+@keyframes textofullstack {
+  from {
+    opacity: 0;
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 
@@ -98,10 +112,15 @@ border-radius: 5px;
 border: 1px solid #fff;
 text-transform: uppercase;
 font-weight: bolder;
+transition: 3s ease-in-out;
+}
+.buttons > button:hover {
+  background: linear-gradient(25deg, rgba(210, 144, 1, 0.753),rgb(52, 6, 255));
+  
 }
 
 .main_img {
-  clip-path: circle(33% at 50% 50%);
+  
   cursor: pointer;
 }
 
@@ -121,6 +140,7 @@ font-weight: bolder;
      .text h1 {
       font-size: 30px;
     }
+    
     .buttons > button {
       padding: 8px 20px;
       font-weight: normal;
@@ -160,9 +180,12 @@ font-weight: bolder;
   margin-bottom: 50px;
 }
  .text p {
-  font-size: 11px;
-
+  font-size: 1em;
+  font-weight: bolder;
+ 
 }
+
+
 .full {
   display: flex;
   justify-content: center;
@@ -171,4 +194,10 @@ font-weight: bolder;
   font-size: 23px;
 }
 
+}
+
+@media(max-width:800px) {
+  .icons > .icon {
+    margin: 0 .5em 0 .5em;
+  }
 }
