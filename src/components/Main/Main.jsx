@@ -24,7 +24,7 @@ const Main = () => {
               </div>
               <div className="buttons">
                 <button>Descargar CV</button>
-                <button>sobre mi</button>
+                {/* <button>sobre mi</button> */}
               </div>
             </div>
           </div>

@@ -12,9 +12,20 @@
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  min-height: 450px;
   transition: all 400ms ease;
 }
-
+.portfolio_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.portfolio_items > h3 {
+  margin: 1em 0;
+  text-align: center;
+  
+  
+}
 a{
   color: #4db5ff;
   text-decoration: none;
@@ -22,11 +33,15 @@ a{
 /* a:hover {
 
 } */
+.portfolio_item-image {
+  height: 50%;
+}
 
-.img{
-  display: block;
+.portfolio_item-image > img{
+  /* display: block; */
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
+  min-height: 100%;
 }
 .btn {
 width: max-content;

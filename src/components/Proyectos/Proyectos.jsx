@@ -1,5 +1,5 @@
 import React from 'react'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMGrolling from '../../assets/rollingcodefront.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import './proyectos.css'
@@ -9,10 +9,10 @@ const Proyectos = () => {
   const datos = [
     {
       id: 1,
-      image: IMG1,
-      titulo: "Titulo",
-      github: "https://github.com",
-      demo: "https://dribbble.com/Alien_pixels"
+      image: IMGrolling,
+      titulo: "Pagina de administracion escolar",
+      github: "https://github.com/goarguello/project3-rollingcodeschool",
+      demo: "https://rollingcodeschool.netlify.app"
     },
     {
       id: 2,
