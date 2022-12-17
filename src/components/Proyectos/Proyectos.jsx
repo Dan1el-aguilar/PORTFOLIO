@@ -1,6 +1,6 @@
 import React from 'react'
 import IMGrolling from '../../assets/rollingcodefront.png'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMGclima from '../../assets/imgAppClima.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import './proyectos.css'
 
@@ -16,10 +16,10 @@ const Proyectos = () => {
     },
     {
       id: 2,
-      image: IMG2,
-      titulo: "Titulo",
-      github: "https://github.com",
-      demo: "https://dribbble.com/Alien_pixels"
+      image: IMGclima,
+      titulo: "App del Clima",
+      github: "https://github.com/marcosarias21/weather-app",
+      demo: "https://weather-app-ffdm.netlify.app"
     },
     {
       id: 3,
