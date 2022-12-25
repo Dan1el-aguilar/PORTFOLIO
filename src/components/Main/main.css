@@ -100,8 +100,7 @@ font-size: 22px;
 }
 
 
-
-.buttons > button {
+.buttons > a > button {
 padding: 15px 40px;
 margin-top: 2rem;
 margin-right: 1rem;
@@ -116,7 +115,8 @@ box-shadow: inset 0 0 0 0 #8e9e93;
 outline: none;
 transition: .3s ease-out; 
 }
-.buttons > button:hover {
+
+.buttons > a > button:hover {
   box-shadow: inset 300px 0 0 0 #060593;
   color: white;
 }

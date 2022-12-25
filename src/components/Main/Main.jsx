@@ -23,7 +23,10 @@ const Main = () => {
                 <a  className='icon g'  href="https://github.com/Dan1el-aguilar"  target='_blank' rel="noreferrer"><AiFillGithub/></a>
               </div>
               <div className="buttons">
-                <button>Descargar CV</button>
+                <a href="https://www.canva.com/design/DAFDt1Mb924/icvFinxgwZvnj-VY0WhEIg/view?utm_content=DAFDt1Mb924&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank' rel="noreferrer">
+                  <button>Descargar CV</button>
+                </a>
+
                 {/* <button>sobre mi</button> */}
               </div>
             </div>

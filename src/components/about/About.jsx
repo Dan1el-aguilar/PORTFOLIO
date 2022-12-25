@@ -19,7 +19,9 @@ const About = () => {
               Siempre tengo la mejor disposición para la realización de mis labores.
         </p>
         <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ducimus animi itaque dignissimos necessitatibus praesentium optio recusandae molestiae odio officia, nobis eligendi minima aliquam accusamus assumenda, quaerat harum, ab ratione.
+              En busqueda de oportunidades que me permitan formar parte de un equipo de trabajo en donde pueda continuar
+              desarrollando mi perfil profesional.
+              comprometiendome a sumar valor a partir de mis competencias, experiencias y formacion. 
         </p>
         <div className="a-award">
           <img src="" alt="" className="a-award-img" />
