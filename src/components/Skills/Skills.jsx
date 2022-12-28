@@ -17,6 +17,9 @@ const Skills = () => {
                       <h4>CSS</h4>
                   </article>
                   <article className='experience_details'>
+                      <h4>SCSS</h4>
+                  </article>
+                  <article className='experience_details'>
                       <h4>Bootstrap</h4>
                   </article>
                   <article className='experience_details'>
@@ -24,6 +27,12 @@ const Skills = () => {
                   </article>
                   <article className='experience_details'>
                       <h4>React</h4>
+                  </article>
+                  <article className='experience_details'>
+                      <h4>React-Native</h4>
+                  </article>
+                  <article className='experience_details'>
+                      <h4>Redux-toolkit</h4>
                   </article>
                   <article className='experience_details'>
                       <h4>GitHub</h4>
@@ -49,7 +58,9 @@ const Skills = () => {
                   <article className='experience_details'>
                       <h4>Mongoose</h4>
                   </article>
-                
+                  <article className='experience_details'>
+                      <h4>Firebase</h4>
+                  </article>
               </div>
           </div>
           </div>

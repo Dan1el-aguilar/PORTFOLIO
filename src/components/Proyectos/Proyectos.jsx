@@ -24,7 +24,7 @@ const Proyectos = () => {
     {
       id: 3,
       image: IMG3,
-      titulo: "Titulo",
+      titulo: "en curso - react native",
       github: "https://github.com",
       demo: "https://dribbble.com/Alien_pixels"
     }

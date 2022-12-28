@@ -4,6 +4,7 @@ import { BsFacebook } from 'react-icons/bs'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { AiFillGithub } from 'react-icons/ai'
+import imgPersonal from '../../assets/img_personal.png'
 
 const Main = () => {
   return (
@@ -32,7 +33,7 @@ const Main = () => {
             </div>
           </div>
             <div className='main_img'>
-               <img src=""alt="imagen personal" />
+               <img src={imgPersonal} alt="imagen personal" />
             </div>
         </div>
     </div>

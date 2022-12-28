@@ -3,28 +3,30 @@ import './contacto.css'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsWhatsapp } from 'react-icons/bs'
 import emailjs from '@emailjs/browser'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 const Contacto = () => {
+  const [sendMsg, setSendMsg] = useState(false)
   const inputName = useRef()
   const inputEmail = useRef()
   const inputMensaje = useRef()
   
   const handleForm = (e) => {
     e.preventDefault()
-    let enviado = document.getElementById("enviado")
+   let enviado = document.getElementById("enviado")
+   setSendMsg(true)
    emailjs.sendForm('service_p0xdbh3', 'template_pjcla6c', e.target, 'Qyb_g2I_ahzvK_hqz')
-  .then(res => {
+   .then(res => {
     if (res.status === 200) {
       inputName.current.value = ''
       inputEmail.current.value = ''
       inputMensaje.current.value = ''
       enviado.classList.remove("mensaje")
-       setTimeout(() => { enviado.classList.add("mensaje")},5000)
+      setTimeout(() => { enviado.classList.add("mensaje")},5000)
+      setSendMsg(false)
     }
   })
   .catch(err => console.log(err))
-  
 }
 
 return (
@@ -53,7 +55,7 @@ return (
             
             <div className='divButtonSubmit'>
                <button id='enviado' className='btnSubmit enviado mensaje'>Mensaje Enviado!</button>
-               <button type='submit' className='btnSubmit'>Enviar</button>
+               <button type='submit' disabled={sendMsg} className='btnSubmit'>{sendMsg ? 'env...' : 'Enviar'}</button>
             </div>
           </form>
 
